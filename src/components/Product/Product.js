@@ -1,10 +1,10 @@
 import React from 'react';
 
 const Product = (props) => {
-    console.log(props.product)
+    const { name, picture, price, id } = props.product;
     return (
         <div>
-            <h1>this is Product</h1>
+            <img src={picture} alt=""></img>
         </div>
     );
 };
