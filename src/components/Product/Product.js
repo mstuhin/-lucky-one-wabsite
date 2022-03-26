@@ -1,4 +1,5 @@
 import React from 'react';
+
 import './Product.css'
 
 
@@ -18,6 +19,7 @@ const Product = (props) => {
 
             <button onClick={() => handleClick(product)} className='btn-cart'>
                 <p>Add to Cart</p>
+
             </button>
 
         </div>
