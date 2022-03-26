@@ -8,3 +8,10 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 45px;
 }
+
+@media screen and (max-width:588px) {
+    .products-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+}

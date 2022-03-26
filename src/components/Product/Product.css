@@ -23,3 +23,7 @@ margin: 7px;
     border: none;
     border-radius: 0px 0px 8px 8px;
 }
+
+.btn-cart:hover{
+    background-color: cornflowerblue;
+}
