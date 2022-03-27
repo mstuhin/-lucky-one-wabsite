@@ -1,4 +1,11 @@
 .car-pic img{
 width: 66px;
 height: 66px;
+margin-right: 5px;
+padding-top: 5px;
+}
+
+.car-pic{
+    display: flex;
+    
 }

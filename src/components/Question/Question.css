@@ -1,0 +1,15 @@
+.question-container{
+    height: 520px;
+    width: 560px;
+    padding: 55px;
+}
+
+.question{
+    color: crimson;
+    font-size: large;
+}
+
+.text-bg{
+    background-color: rgb(206, 182, 182);
+    padding: 10px;
+}

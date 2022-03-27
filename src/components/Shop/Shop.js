@@ -24,6 +24,7 @@ const Shop = () => {
 
     }
 
+
     return (
         <div className='shop-container'>
             <div className="products-container">
@@ -34,6 +35,8 @@ const Shop = () => {
                         handleClick={handleClick}
                     ></Product>)
                 }
+
+
             </div>
 
             <div className="cart-container">
@@ -44,10 +47,12 @@ const Shop = () => {
                         car={car}
                     ></Addcart>)
                 }
+                <div className='btn-choose'>
+                    <button>Choose 1 For me</button>
+                    <br />
+                    <button>Choose Again</button>
 
-
-
-
+                </div>
             </div>
         </div>
     );
